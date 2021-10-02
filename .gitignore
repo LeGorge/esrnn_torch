@@ -2,9 +2,8 @@
 *.DS_Store
 *.vscode
 *.ipynb_checkpoints
+results/M4/M4*
 data/
-!results/
-results/*
 literature/*
 plots/
 statistics/

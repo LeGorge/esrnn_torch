@@ -26,8 +26,8 @@ def get_config(dataset_name):
 YEARLY = {
     'device': 'cuda',
     'train_parameters': {
-        'max_epochs': 25,
-        'batch_size': 4,
+        'max_epochs': 100,
+        'batch_size': 1,
         'freq_of_test': 5,
         'learning_rate': '1e-4',
         'lr_scheduler_step_size': 10,
